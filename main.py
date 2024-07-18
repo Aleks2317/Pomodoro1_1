@@ -10,6 +10,7 @@ class App(customtkinter.CTk):
         super().__init__()
         self.title("Pomodoro_1.1")
         self.geometry('200x200')
+        self.iconbitmap('pomodoro_1_1.ico')
         self.grid_columnconfigure(0, weight=1)
         self.resizable(0, 0)
 
