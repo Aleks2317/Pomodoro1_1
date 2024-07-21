@@ -90,5 +90,4 @@ class App(customtkinter.CTk):
         self.btn_music.pack_forget()
 
 
-if __name__ == '__main__':
-    App().mainloop()
+App().mainloop()
